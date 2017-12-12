@@ -29,12 +29,12 @@ age: 23
  	console.log("Hello, my name is " + name);
 
  }
- greet(krishna);
+ greet("krishna");
 
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
- var dataTypes = ['chocolate milk',4, true,null, {}, undefined];
+ var dataTypes = ['chocolate', 4, false, null, undefined, {}]
 
 
 
@@ -42,3 +42,12 @@ age: 23
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+
+var dog = {
+
+name:"Spot",
+
+bark :function bark () { console.log("Bark!!");}
+
+
+};
